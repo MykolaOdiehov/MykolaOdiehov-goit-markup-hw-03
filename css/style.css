@@ -22,6 +22,7 @@ text-decoration:none ;
     text-decoration: none;
     color: #212121;
     font-family: Roboto;
+    
 }
 .link-for-navigation:hover{
     color: #2196F3;
@@ -179,4 +180,23 @@ color: #212121;
     line-height: 30px;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+.header  {
+    display:inline;
+    flex-direction:row;
+    
+}
+ul{
+    display:flex;
+    flex-direction:row;
+}
+
+.link-for-navigation:not(last-child){
+margin-right: 50px;
+
+}
+.tell-for-buyer{
+    margin-right: 30px;
+
 }
