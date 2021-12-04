@@ -227,6 +227,5 @@ margin-right: 30px;
 .text-in-button-in-herov,
 .button-for-buy{
     position: absolute;
-    
     transform: translate(-50%, -50%);
 }
