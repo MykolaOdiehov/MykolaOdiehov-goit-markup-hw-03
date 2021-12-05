@@ -178,6 +178,8 @@ header{
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
+  color: #fff;
+  margin-bottom: 20px;
 }
 .name-commando {
   font-family: Roboto;
@@ -225,7 +227,10 @@ header{
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  
+  
   letter-spacing: 0.03em;
+  
   color: #757575;
 }
 .work {
@@ -268,21 +273,23 @@ display: none;
 .list-in-work{
 display: flex;
 flex-direction: row;
+margin-top: 94px;
 
 }
 .list-in-work > li:not(:first-child){
     margin-left: 30px;
 }
 .work-in-protgect-uor-command{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.03em;
-    margin-left: 600px;
-    margin-bottom: 50px;
-
+ font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+margin: 0 auto;
+margin-bottom: 50px;
+width: 300px;
+height: 42px
 }
 .buy-product_list{
 display: inline-block;
@@ -299,5 +306,28 @@ width: 1306px;
     display: flex;
    margin: 0 auto;
    width:  610px;
+   margin-top: 94px;
    margin-bottom: 50px;
+}
+
+.link-for-navigation-in-footer{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Roboto;
+  margin-right: 50px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+margin-bottom: 9px;
+
+}
+.link-for-navigation-in-footer:focus{
+  color: #2196f3;
+}
+.link-for-navigation-in-footer:hover{
+  color: #2196f3;
+
 }
