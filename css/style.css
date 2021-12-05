@@ -1,241 +1,237 @@
-.tell-for-buyer{
-    margin-right: 30px;
-    text-decoration: none;
-    color: #757575;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+body {
+  font-family: Roboto, sans-serif;
+  color: #212121;
+  font-style: normal;
 }
-.tell-for-buyer:hover{
-color: #2196F3;
-text-decoration:none ;
 
+button {
+  border: none;
 }
-.link-for-navigation:focus{
-    color: #2196F3;
-    text-decoration:none ;
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+}
+.tell-for-buyer {
+  margin-right: 30px;
+  text-decoration: none;
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.tell-for-buyer:hover {
+  color: #2196f3;
+  text-decoration: none;
+}
+.link-for-navigation:focus {
+  color: #2196f3;
+  text-decoration: none;
 }
 .link-for-navigation {
-    text-decoration: none;
-    color: #212121;
-    font-family: Roboto;
-    margin-right: 50px;
+  text-decoration: none;
+  color: #212121;
+  font-family: Roboto;
+  margin-right: 50px;
 }
-.link-for-navigation:hover{
-    color: #2196F3;
-    text-decoration:none ;
-
-}
-
-.text-color{
-color: #2196F3;
-text-decoration:none ;
+.link-for-navigation:hover {
+  color: #2196f3;
+  text-decoration: none;
 }
 
-body{
-    width:1338px ;
-font-family: Roboto;
-color: #212121;
-}
-.button-for-buy{
-    background: #2196F3;
-    cursor: pointer;
-    width: 200px;
-    height: 50px; ;
-    border-radius:4px ;
-    color: #ffff    ;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-   
-}
-.button-for-buy:hover{
-    color: #ffff    ;
-background: #188CE8;
-cursor: pointer;
-width: 200px;
-height: 50px; ;
-border-radius:4px ;
-}
-.button:hover{
-    background: #2196F3;
-}
-.button-for-buy:focus{
-    background: #2196F3;
-}
-.tell-for-buyer:focus{
-    color: #2196F3;
-    text-decoration:none ;
-}
-.information-text{
-    width: 270px;
-    height: 75px;
-    margin-right: 30px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #757575;
-}
-.information{
-    margin-right: 30px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    
-}
-.text-in-button-in-herov{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin-left: 452px;
-}
-.number-one{
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    margin-left:  115px; ;  
-    margin-right: 93px;  
-}
-.work-in-protgect{
-    font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-letter-spacing: 0.03em;
-margin-left:350px ; 
-margin-bottom: 50px; 
-}
-.uor-comand{
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.03em;
-   /* margin-left:350px ; */ 
-
-}
-.footer-text{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.03em;
-}
-.name-commando{
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-}
-.information-comand{
-letter-spacing: 0.03em;
-color: #757575;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-}
-.button-fultor{
-    width: max-content;
-    height: 38px;
-}
-.button-fultor:focus{
-background: #188CE8;
-width: max-content;
-height: 38px;
-color: #ffff;
-}
-.button-fultor:hover{
-    background: #188CE8;
-    width: max-content;
-    height: 38px;
- color: #ffff;
-    
-}
-.photo-buy{
-    font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 36px;
-letter-spacing: 0.06em;
-color: #212121;
-}
-.photo-buy-information{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-ul{
-    display:flex;
-    flex-direction:row;
-    margin-right: 50px;
-}
-.header{
-display: flex;
-flex-direction: row;
-width: max-content;
-height: 80px;
-align-items: center;
-}
-.tell-for-buy{
-    margin-left: 155px;
-
-}
-.work{
-margin-left:115px ;
-padding-bottom: 99px;
-}
-.our-protgect{
-padding-top:188px ;
-    margin-left: 115px; 
-
-}
-.our-protgect > ul > li{
-margin-right: 30px;
-
-}
-.herov{
-    position: relative;
-    text-align: center;
-    color: white;
+.text-color {
+  color: #2196f3;
+  text-decoration: none;
 }
 
-.text-in-button-in-herov
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-right: 75px;
+.button-for-buy {
+  background: #2196f3;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #ffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px;
 }
-.buy-product{
-    display: flex;
-    flex-direction: column;
+.button-for-buy:hover {
+  background: #188ce8;
+}
+.button:hover {
+  background: #2196f3;
+}
+.button-for-buy:focus {
+  background: #2196f3;
+}
+.tell-for-buyer:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
+.information-text {
+  margin-right: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+.information {
+  margin-right: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.text-in-button-in-herov {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-left: 452px;
+}
+.number-one {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  margin-left: 115px;
+  margin-right: 93px;
+}
+.work-in-protgect {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  margin-left: 350px;
+  margin-bottom: 50px;
+}
+.uor-comand {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  /* margin-left:350px ; */
+}
+.footer-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+.name-commando {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.information-comand {
+  letter-spacing: 0.03em;
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.button-fultor {
+}
+.button-fultor:focus {
+  background: #188ce8;
+  width: max-content;
+  height: 38px;
+  color: #ffff;
+}
+.button-fultor:hover {
+  height: 38px;
+  color: #ffff;
+}
+.photo-buy {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.photo-buy-information {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+
+  height: 80px;
+  align-items: center;
+}
+.tell-for-buy {
+  margin-left: 155px;
+}
+.work {
+  margin-left: 115px;
+  padding-bottom: 99px;
+}
+.our-protgect {
+  padding-top: 188px;
+  margin-left: 115px;
+}
+.our-protgect > ul > li {
+  margin-right: 30px;
+}
+.herov {
+  text-align: center;
+  padding: 200px 0;
+  background: #2f303a;
+}
+
+.text-in-button-in-herov {
+  margin: 0 auto;
+  max-width: 650px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.buy-product {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  padding: 60px 0;
+  background: #2f303a;
 }
