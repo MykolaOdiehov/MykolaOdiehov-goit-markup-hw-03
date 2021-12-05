@@ -7,15 +7,42 @@ body {
 button {
   border: none;
 }
-
 a {
-  text-decoration: none;
+    text-decoration: none;
+  }
+  header{
+    width: max-content;
+    display: flex;
+    border-color:rgba(0, 0, 0, 0.15);
+  }
+header > div{
+    display: flex;
+    flex-direction: row;
+   
 }
 
-ul {
-  padding: 0;
+header > div > ul{
+    display: flex;
+    flex-direction: row;
+align-items: center;
+margin-top: 31.5px;
+margin-left: 90px;
 }
-
+.tell-for-buy{
+    display: flex;
+    flex-direction: row;
+margin-left: auto;
+}
+header{
+    display: inline;
+    flex-direction: column;
+   width: 100%;
+   height: 80px;
+}
+.list-in-header{
+    display: inline ;
+    flex-direction: column;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -24,8 +51,14 @@ ul {
 
 .row {
   display: flex;
+  
+}
+.row > li:not(:first-child) {
+    margin-left: 30px;
+    margin-bottom: 94px;
 }
 .tell-for-buyer {
+    
   margin-right: 30px;
   text-decoration: none;
   color: #757575;
@@ -116,8 +149,8 @@ ul {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
+  margin-top: 31.5px;
   margin-left: 115px;
-  margin-right: 93px;
 }
 .work-in-protgect {
   font-family: Roboto;
@@ -163,15 +196,18 @@ ul {
   line-height: 19px;
 }
 .button-fultor {
-}
+    border-radius: 4px;
+    margin-right: 10px;
+    display: inline-block;
+    padding: 6px 22px;
+    height: 40px;
+    }
 .button-fultor:focus {
   background: #188ce8;
-  width: max-content;
-  height: 38px;
   color: #ffff;
 }
 .button-fultor:hover {
-  height: 38px;
+  background: #2196F3;
   color: #ffff;
 }
 .photo-buy {
@@ -192,23 +228,13 @@ ul {
   letter-spacing: 0.03em;
   color: #757575;
 }
-
-.header {
-  display: flex;
-  flex-direction: row;
-
-  height: 80px;
-  align-items: center;
-}
-.tell-for-buy {
-  margin-left: 155px;
-}
 .work {
   margin-left: 115px;
   padding-bottom: 99px;
+ 
 }
 .our-protgect {
-  padding-top: 188px;
+  padding-top: 94px;
   margin-left: 115px;
 }
 .our-protgect > ul > li {
@@ -234,4 +260,44 @@ ul {
 .footer {
   padding: 60px 0;
   background: #2f303a;
+}
+.none{
+display: none;
+
+}
+.list-in-work{
+display: flex;
+flex-direction: row;
+
+}
+.list-in-work > li:not(:first-child){
+    margin-left: 30px;
+}
+.work-in-protgect-uor-command{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    margin-left: 600px;
+    margin-bottom: 50px;
+
+}
+.buy-product_list{
+display: inline-block;
+margin-right: 30px;
+margin-bottom: 30px;
+
+}
+.sales-list{
+
+height: 1200px;
+width: 1306px;
+}
+.all-button-in-portfolio{
+    display: flex;
+   margin: 0 auto;
+   width:  610px;
+   margin-bottom: 50px;
 }
