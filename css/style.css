@@ -211,6 +211,7 @@ header{
 .button-fultor:hover {
   background: #2196F3;
   color: #ffff;
+  cursor: pointer;
 }
 .photo-buy {
   font-family: Roboto;
