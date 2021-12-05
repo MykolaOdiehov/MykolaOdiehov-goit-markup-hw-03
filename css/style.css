@@ -37,6 +37,7 @@ text-decoration:none ;
 }
 
 body{
+    width:1338px ;
 font-family: Roboto;
 color: #212121;
 }
@@ -108,7 +109,7 @@ border-radius:4px ;
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
-    margin-left:  215px; ;  
+    margin-left:  115px; ;  
     margin-right: 93px;  
 }
 .work-in-protgect{
@@ -118,7 +119,8 @@ font-weight: bold;
 font-size: 36px;
 line-height: 42px;
 letter-spacing: 0.03em;
-margin-left:  612px;  
+margin-left:350px ; 
+margin-bottom: 50px; 
 }
 .uor-comand{
 
@@ -128,7 +130,7 @@ margin-left:  612px;
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.03em;
-    
+   /* margin-left:350px ; */ 
 
 }
 .footer-text{
@@ -198,21 +200,22 @@ ul{
 .header{
 display: flex;
 flex-direction: row;
-width: 1388px;
+width: max-content;
 height: 80px;
 align-items: center;
 }
 .tell-for-buy{
-    margin-left: 305px;
+    margin-left: 155px;
 
 }
 .work{
-margin-left:215px ;
-
+margin-left:115px ;
+padding-bottom: 99px;
 }
 .our-protgect{
+padding-top:188px ;
+    margin-left: 115px; 
 
-    margin-left: 215px; 
 }
 .our-protgect > ul > li{
 margin-right: 30px;
@@ -224,8 +227,15 @@ margin-right: 30px;
     color: white;
 }
 
-.text-in-button-in-herov,
-.button-for-buy{
+.text-in-button-in-herov
+{
     position: absolute;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    margin-right: 75px;
+}
+.buy-product{
+    display: flex;
+    flex-direction: column;
 }
