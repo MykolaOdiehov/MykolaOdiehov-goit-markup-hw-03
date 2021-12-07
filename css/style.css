@@ -10,10 +10,12 @@ button {
 a {
     text-decoration: none;
   }
-  header{
-    width: max-content;
-    display: flex;
-    border-color:rgba(0, 0, 0, 0.15);
+header{
+display: inline;
+flex-direction: column;
+width: 1350px;
+height: 80px;
+
   }
 header > div{
     display: flex;
@@ -33,12 +35,7 @@ margin-left: 90px;
     flex-direction: row;
 margin-left: auto;
 }
-header{
-    display: inline;
-    flex-direction: column;
-   width: 100%;
-   height: 80px;
-}
+
 .list-in-header{
     display: inline ;
     flex-direction: column;
@@ -53,12 +50,17 @@ header{
   display: flex;
   
 }
-.row > li:not(:first-child) {
+.row > li{
     margin-left: 30px;
-    margin-bottom: 94px;
+    
 }
 .tell-for-buyer {
-    
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
   margin-right: 30px;
   text-decoration: none;
   color: #757575;
@@ -76,10 +78,12 @@ header{
   text-decoration: none;
 }
 .link-for-navigation {
+  height: 0 auto ;
   text-decoration: none;
   color: #212121;
   font-family: Roboto;
   margin-right: 50px;
+  font-weight: 500;
 }
 .link-for-navigation:hover {
   color: #2196f3;
@@ -131,6 +135,7 @@ header{
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .text-in-button-in-herov {
   font-family: Roboto;
@@ -144,13 +149,13 @@ header{
   margin-left: 452px;
 }
 .number-one {
-  font-family: Raleway;
+  font-family: Raleway ;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  margin-top: 31.5px;
-  margin-left: 115px;
+  margin-top: auto;
+  
+  margin-right: auto;
 }
 .work-in-protgect {
   font-family: Roboto;
@@ -159,7 +164,7 @@ header{
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
-  margin-left: 350px;
+  text-align: center;
   margin-bottom: 50px;
 }
 .uor-comand {
@@ -172,10 +177,10 @@ header{
   /* margin-left:350px ; */
 }
 .footer-text {
-  font-family: Roboto;
+  font-family: Raleway ;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 42px;
   letter-spacing: 0.03em;
   color: #fff;
@@ -187,22 +192,34 @@ header{
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+  margin-bottom: 10px;
 }
 .information-comand {
-  letter-spacing: 0.03em;
-  color: #757575;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
+  
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+  margin-bottom: 30px;
 }
 .button-fultor {
-    border-radius: 4px;
-    margin-right: 10px;
-    display: inline-block;
-    padding: 6px 22px;
-    height: 40px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+border-radius: 4px;
+margin-right: 10px;
+display: inline-block;
+padding: 6px 22px;
+height: 40px;
+color: #212121;
     }
 .button-fultor:focus {
   background: #188ce8;
@@ -221,15 +238,16 @@ header{
   line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
+  margin-top: 20px;
 }
 .photo-buy-information {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   
-  
+  margin-top: 24px;
   letter-spacing: 0.03em;
   
   color: #757575;
@@ -241,7 +259,8 @@ header{
 }
 .our-protgect {
   padding-top: 94px;
-  margin-left: 115px;
+  margin:0 auto ;
+  padding-bottom: 94px;
 }
 .our-protgect > ul > li {
   margin-right: 30px;
@@ -249,10 +268,11 @@ header{
 .herov {
   text-align: center;
   padding: 200px 0;
-  background: #2f303a;
+  background: url(../images/photo-herv.jpg);
+  background: #2F303A;
 }
 
-.text-in-button-in-herov {
+ .text-in-button-in-herov {
   margin: 0 auto;
   max-width: 650px;
   color: #fff;
@@ -293,20 +313,22 @@ width: 300px;
 height: 42px
 }
 .buy-product_list{
-display: inline-block;
-margin-right: 30px;
-margin-bottom: 30px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.buy-product_list > img{
+  border: 1px solid #C5C5C5;
 
 }
 .sales-list{
 
-height: 1200px;
 width: 1306px;
 }
 .all-button-in-portfolio{
     display: flex;
    margin: 0 auto;
-   width:  610px;
+   width:  max-content;
    margin-top: 94px;
    margin-bottom: 50px;
 }
@@ -314,11 +336,10 @@ width: 1306px;
 .link-for-navigation-in-footer{
   text-decoration: none;
   color: #ffffff;
-  font-family: Roboto;
   margin-right: 50px;
   font-family: Roboto;
-font-style: normal;
-font-weight: normal;
+
+font-weight:400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
@@ -330,5 +351,31 @@ margin-bottom: 9px;
 }
 .link-for-navigation-in-footer:hover{
   color: #2196f3;
+
+}
+.box-header{
+  border: 1px solid #ECECEC;
+}
+.button-in-herov{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+}
+.card-bakgraynd{
+  margin:0 auto ;
+  padding-top: 94px;
+  background: #F5F4FA;;
+  height: 537px;
+}
+.card{
+text-align: center;
+border: 1px solid black ;
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 
 }
