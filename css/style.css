@@ -155,7 +155,7 @@ letter-spacing: 0.02em;
   font-size: 26px;
   margin-top: auto;
   
-  margin-right: auto;
+  margin-left: 93px;
 }
 .work-in-protgect {
   font-family: Roboto;
@@ -316,7 +316,7 @@ height: 42px
 .buy-product_list{
   display: inline-block;
   margin-right: 30px;
-  margin-bottom: 111px;
+  margin-bottom: 30px;
 }
 .buy-product_list:focus{
   border: 1px solid #EEEEEE;
@@ -328,7 +328,8 @@ height: 42px
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .sales-list{
-
+height: max-content;
+margin-bottom: 111px;
 width: 1306px;
 }
 .all-button-in-portfolio{
